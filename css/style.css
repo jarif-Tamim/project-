@@ -1,0 +1,223 @@
+@import url("https://fonts.googleapis.com/css2?family=Lilita+One&family=Rubik:wght@400;500&display=swap");
+
+
+body {
+    font-family: "Rubik", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+    font-family: "Lilita One", cursive;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    line-height: 22px;
+}
+
+a {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    font-family: "Rubik", sans-serif;
+    color: inherit;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.section-padding-top {
+    padding-top: 140px;
+}
+
+.section-padding-bottom {
+    padding-bottom: 140px;
+}
+
+.section-padding {
+    padding-top: 133px;
+    padding-bottom: 140px;
+}
+
+
+header {
+    padding: 50px 185px;
+}
+
+.humburg-icon {
+    float: right;
+}
+
+
+.home {
+    background: url(../img/home/home-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+    z-index: -1;
+    background-color: #6928d9;
+}
+
+.home-content {
+    padding: 0 0px 0 170px;
+    height: 100vh;
+}
+
+
+.hola-text {
+    font-size: 34px;
+    font-weight: 400;
+    color: #fff;
+    line-height: 50px;
+}
+
+
+h1 {
+    font-size: 120px;
+    color: #fff;
+    line-height: 130px;
+}
+
+.home-content-wrap {
+    display: table;
+    height: 100vh;
+}
+
+.home-content {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.authore-img {
+    padding-top: 20px;
+    height: 100vh;
+}
+
+.authore-img img {
+    height: 100%;
+}
+
+.layer {
+    position: absolute;
+}
+
+.layer1 {
+    left: 680px;
+    top: -50px;
+}
+
+.layer2 {
+    left: 70px;
+    top: 380px;
+}
+
+.layer3 {
+    left: 270px;
+    top: 820px;
+}
+
+.layer4 {
+    right: 120px;
+    top: 390px;
+    z-index: -1;
+}
+
+ul {
+    list-style: none;
+}
+
+
+.about-me {
+    position: relative;
+}
+
+.about-me.section-padding {
+    padding-bottom: 129px;
+}
+
+.contact-info {
+    border-bottom: 1px solid #dfdfdf;
+}
+
+.contact-info.section-padding-bottom {
+    padding-bottom: 137px;
+}
+
+.section-title {
+    text-align: center;
+}
+
+.section-title .title {
+    font-size: 14px;
+    font-weight: 500;
+    color: #6928d9;
+    line-height: 25px;
+    text-transform: uppercase;
+    padding: 0;
+    margin-bottom: 3px;
+}
+
+.section-title h3 {
+    font-size: 50px;
+    color: #060630;
+}
+
+.contact-info {
+    padding-top: 89px;
+}
+
+.contact-icon {
+    height: 80px;
+    width: 80px;
+    text-align: center;
+    background: #6928d9;
+    box-shadow: 0px 8px 16px 0px rgba(105, 40, 217, 0.2);
+    position: relative;
+    display: table;
+}
+
+.contact-icon::before {
+    position: absolute;
+    content: "";
+    height: 100px;
+    width: 100px;
+    background: #f4edff;
+    z-index: -1;
+    bottom: 2px;
+    right: 2px;
+}
+
+.contact-icon i {
+    font-size: 30px;
+    font-weight: 400;
+    color: #fff;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.contact-item span {
+    font-size: 14px;
+    color: #9498a9;
+    text-transform: uppercase;
+    padding-top: 35px;
+    display: table-cell;
+}
+
+.contact-item p {
+    font-family: "Lilita One", cursive;
+    font-size: 24px;
+    color: #060630;
+    margin-top: 12px;
+}
